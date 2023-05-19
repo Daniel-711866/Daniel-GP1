@@ -149,7 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 585e7dccd7c1ae545a8d771ef4f7c54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
   rb: {fileID: 3195656346755071280}
   groundCheck: {fileID: 3195656346799947570}
   groundLayer:

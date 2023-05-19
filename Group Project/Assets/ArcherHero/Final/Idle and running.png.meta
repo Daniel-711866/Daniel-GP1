@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ce9c334ef71242648a7507e5b298b826
+guid: 6f09ace4e313f744193702ce5fab234b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -164,148 +164,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_blue_0
+      name: Idle and running_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 10
+        x: 22
+        y: 75
+        width: 28
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a7cea7fd6149a14d941911e7603abba
-      internalID: 28520148
+      spriteID: d3f4f0cac132c3e45b4b7a71dd52dd92
+      internalID: -310852679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_1
+      name: Idle and running_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 10
+        x: 86
+        y: 75
+        width: 28
+        height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd05c8e2857f00d448ffd4df1b5b32b7
-      internalID: 1421868706
+      spriteID: 8f0251d2b0d78bd458d8ab076346602f
+      internalID: 1184557564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_2
+      name: Idle and running_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 11
+        x: 21
+        y: 12
+        width: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49b45419d54b9e4d99f61d8bcb35404
-      internalID: -236736921
+      spriteID: ac28ea8500c340b4681d9b39aa0f5dc8
+      internalID: 258194822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_3
+      name: Idle and running_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 11
+        x: 82
+        y: 12
+        width: 36
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3e6a0efce5e8c9468047ee480236fcb
-      internalID: -1071775224
+      spriteID: f4729983d2e109b49ba78b0136db75bf
+      internalID: -2038151360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_4
+      name: Idle and running_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 8
+        x: 146
+        y: 12
+        width: 35
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ec4cd1621ded2a439af68e1d6e38873
-      internalID: -1650493683
+      spriteID: be4376039f5933441bb8bed79a26374d
+      internalID: 1626529866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_5
+      name: Idle and running_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 8
+        x: 211
+        y: 12
+        width: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ddade05e84b9fa4a9ef0b1aa1ea2da0
-      internalID: -447688983
+      spriteID: eab0ff75087c81d438d2e03d36c7c2b2
+      internalID: 1700411354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_blue_6
+      name: Idle and running_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 3
+        x: 275
+        y: 12
+        width: 28
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3378698f3a1afb4abd275ae96fec7c1
-      internalID: 1559021575
+      spriteID: 8ffb70d1d9a5f754d9710b781363c897
+      internalID: 1050733469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle and running_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 12
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cb7dc7d04299d47a44dfed046f11ee
+      internalID: 1970893796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle and running_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 12
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100b74729067a50478c6829eb1ea5a53
+      internalID: 239742988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle and running_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 12
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06d639047ba8a42b2900c85cc0189d
+      internalID: -156456215
       vertices: []
       indices: 
       edges: []
@@ -321,13 +384,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime_blue_0: 28520148
-      slime_blue_3: -1071775224
-      slime_blue_1: 1421868706
-      slime_blue_5: -447688983
-      slime_blue_6: 1559021575
-      slime_blue_4: -1650493683
-      slime_blue_2: -236736921
+      Idle and running_1: 1184557564
+      Idle and running_3: -2038151360
+      Idle and running_4: 1626529866
+      Idle and running_7: 1970893796
+      Idle and running_6: 1050733469
+      Idle and running_0: -310852679
+      Idle and running_9: -156456215
+      Idle and running_2: 258194822
+      Idle and running_5: 1700411354
+      Idle and running_8: 239742988
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
