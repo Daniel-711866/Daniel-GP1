@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     }
 
    public void TakeDamage(int amount)
-    {
+   {
         currentHealth -= amount;
 
         if(currentHealth <= 0)
@@ -24,6 +24,7 @@ public class Health : MonoBehaviour
             animator.SetBool("IsDead", true);
             Destroy(gameObject, 1);
         }
-    }
+   }
+
 
 }

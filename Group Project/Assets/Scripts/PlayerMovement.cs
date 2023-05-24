@@ -15,6 +15,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+
+    public CoinManager cm;
+
+
+    [SerializeField] private AudioSource coinSoundEffect;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -66,4 +73,20 @@ public class PlayerMovement : MonoBehaviour
             isFacingRight = !isFacingRight;
         }
     }
+
+
+
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            coinSoundEffect.Play();
+            Destroy(other.gameObject);
+            cm.coinCount++;
+        }
+    }
+
+
 }
