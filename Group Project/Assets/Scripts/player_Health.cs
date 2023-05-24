@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class player_Health : MonoBehaviour
 {
     public int maxHealth = 3;
     public static int currentHealth;
@@ -15,14 +14,13 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-   public void TakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         currentHealth -= amount;
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             animator.SetBool("IsDead", true);
-            Destroy(gameObject, 1);
         }
     }
 
